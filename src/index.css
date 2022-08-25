@@ -3,3 +3,28 @@
 @tailwind utilities;
 
 
+.invisible-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* width */
+.no-scrollbar::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+/* .no-scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  } */
+   
+  /* Handle */
+.no-scrollbar::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+.no-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgb(67 56 202);
+  }
